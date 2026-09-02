@@ -1,82 +1,82 @@
-# Working With AI Course — For Web Developers
+# Khóa Học "Làm Việc Với AI Cho Lập Trình Viên Web"
 
-> Master AI-assisted web development with GitHub Copilot, ChatGPT, Cursor, and VS Code.
+> Thành thạo phát triển web có AI hỗ trợ với GitHub Copilot, ChatGPT, Cursor và VS Code.
 
-## 🎯 Course Overview
+## 🎯 Tổng Quan Khóa Học
 
-This course teaches web developers how to leverage AI tools throughout the full development lifecycle — from planning and coding to testing, deployment, and maintenance. You'll build **WebDevHub**, a production-grade web application, using AI as your pair programmer at every step.
+Khóa học hướng dẫn lập trình viên web tận dụng AI trong toàn bộ vòng đời phát triển — từ lập kế hoạch, viết code, kiểm thử đến triển khai và bảo trì. Bạn sẽ xây dựng **WebDevHub**, một ứng dụng web chuẩn production, với AI đóng vai trò pair programmer ở mọi bước.
 
-**Duration:** 12 sections · ~75 lessons · Self-paced (8–12 weeks recommended)
+**Thời lượng:** 12 chương · ~75 bài học · Tự học (khuyến nghị 8–12 tuần)
 
-## 🛠️ Tools Used
+## 🛠️ Công Cụ Sử Dụng
 
-| Tool | Purpose |
-|------|---------|
-| **GitHub Copilot** | In-editor code completion and chat |
-| **ChatGPT** | Architecture planning, debugging, documentation |
-| **Cursor** | AI-native code editor for complex refactors |
-| **VS Code** | Primary development environment |
-| **Vercel** | Deployment and hosting platform |
+| Công cụ | Mục đích |
+|---------|----------|
+| **GitHub Copilot** | Gợi ý code và chat ngay trong editor |
+| **ChatGPT** | Lên kiến trúc, debug, viết tài liệu |
+| **Cursor** | Editor AI chuyên dụng cho refactor phức tạp |
+| **VS Code** | Môi trường phát triển chính |
+| **Vercel** | Nền tảng triển khai và hosting |
 
-## 📚 Curriculum
+## 📚 Chương Trình Học
 
-| # | Section | Focus |
-|---|---------|-------|
-| 1 | AI Foundations for Developers | How LLMs work, prompt basics, setting up your AI toolkit |
-| 2 | Prompt Engineering for Code | Writing effective prompts, few-shot examples, chain-of-thought |
-| 3 | AI-Assisted Component Development | Generating React/Vue components, styling, accessibility |
-| 4 | API Design & Scaffolding | RESTful APIs, GraphQL, database schema generation |
-| 5 | AI-Powered Testing | Unit, integration, and E2E test generation |
-| 6 | Debugging with AI | Error analysis, stack trace interpretation, fix suggestions |
-| 7 | Performance Optimization | Bundle analysis, lazy loading, caching strategies |
-| 8 | Security & Code Review | XSS prevention, auth patterns, AI-assisted code review |
-| 9 | Full-Stack Integration | Connecting frontend, backend, and database with AI |
-| 10 | Deployment & DevOps | CI/CD pipelines, Vercel deployment, monitoring |
-| 11 | Documentation & Collaboration | AI-generated docs, README, API references |
-| 12 | Capstone: WebDevHub | Build and ship the complete project |
+| # | Chương | Nội dung trọng tâm |
+|---|--------|---------------------|
+| 1 | Nền Tảng AI Cho Developer | LLM hoạt động thế nào, cơ bản prompt, thiết lập bộ công cụ AI |
+| 2 | Prompt Engineering Cho Code | Viết prompt hiệu quả, few-shot, chain-of-thought |
+| 3 | Phát Triễn Component Có AI Hỗ Trợ | Sinh component React/Vue, styling, accessibility |
+| 4 | Thiết Kế & Dàn Khung API | RESTful API, GraphQL, sinh schema database |
+| 5 | Kiểm Thử Bằng AI | Sinh test unit, integration và E2E |
+| 6 | Debug Với AI | Phân tích lỗi, đọc stack trace, gợi ý sửa lỗi |
+| 7 | Tối Ưu Hiệu Suất | Phân tích bundle, lazy loading, chiến lược caching |
+| 8 | Bảo Mật & Review Code | Phòng chống XSS, mẫu xác thực, review code bằng AI |
+| 9 | Tích Hợp Full-Stack | Kết nối frontend, backend và database với AI |
+| 10 | Triển Khai & DevOps | CI/CD, triển khai Vercel, giám sát |
+| 11 | Tài Liệu & Cộng Tác | Tài liệu sinh bởi AI, README, API reference |
+| 12 | Dự Án Tổng Kết: WebDevHub | Xây dựng và ship dự án hoàn chỉnh |
 
-## 🏗️ Main Project: WebDevHub
+## 🏗️ Dự Án Chính: WebDevHub
 
-A full-stack web application featuring:
-- **Frontend:** React/Next.js with TypeScript
-- **Backend:** Node.js API with Express or Next.js API routes
-- **Database:** PostgreSQL with Prisma ORM
+Ứng dụng web full-stack với:
+- **Frontend:** React/Next.js với TypeScript
+- **Backend:** Node.js API với Express hoặc Next.js API routes
+- **Database:** PostgreSQL với Prisma ORM
 - **Auth:** NextAuth.js
-- **Deployment:** Vercel with CI/CD
-- **Features:** User dashboard, project management, real-time updates
+- **Triển khai:** Vercel với CI/CD
+- **Tính năng:** Dashboard người dùng, quản lý dự án, cập nhật real-time
 
-## 📁 Repository Structure
+## 📁 Cấu Trúc Thư Mục
 
 ```
 working-with-ai-course-for-web-developer/
 ├── README.md
 ├── PLAN.md
 ├── course-lessons/
-│   ├── en/          # English lessons
-│   └── vi/          # Vietnamese lessons
-├── templates/       # Reusable templates
-├── skills/          # AI skill definitions
-├── agents/          # AI agent configurations
-└── docs/            # Project documentation
+│   ├── en/          # Bài học tiếng Anh
+│   └── vi/          # Bài học tiếng Việt
+├── templates/       # Các mẫu tái sử dụng
+├── skills/          # Định nghĩa kỹ năng AI
+├── agents/          # Cấu hình AI agent
+└── docs/            # Tài liệu dự án
 ```
 
-## 🚀 Getting Started
+## 🚀 Bắt Đầu
 
-1. Clone this repository
-2. Install VS Code + GitHub Copilot extension
-3. Set up Cursor editor (optional)
-4. Open `course-lessons/en/01-ai-foundations/01-why-ai-for-web-dev.md`
-5. Follow lessons sequentially — each builds on the previous
+1. Clone repository này
+2. Cài VS Code + extension GitHub Copilot
+3. Cài đặt Cursor editor (tùy chọn)
+4. Mở `course-lessons/en/01-ai-foundations/01-why-ai-for-web-dev.md`
+5. Học theo thứ tự — mỗi bài xây dựng trên bài trước
 
-## 🎓 Learning Outcomes
+## 🎓 Chuẩn Đầu Ra
 
-By completing this course, you will:
-- Write effective AI prompts for web development tasks
-- Generate production-quality components and APIs with AI
-- Use AI to write and maintain comprehensive test suites
-- Deploy applications with AI-assisted DevOps workflows
-- Ship a complete full-stack project using AI throughout
+Sau khi hoàn thành khóa học, bạn sẽ:
+- Viết prompt AI hiệu quả cho các tác vụ phát triển web
+- Sinh component và API chất lượng production bằng AI
+- Dùng AI để viết và duy trì bộ test toàn diện
+- Triển khai ứng dụng với quy trình DevOps có AI hỗ trợ
+- Ship một dự án full-stack hoàn chỉnh sử dụng AI xuyên suốt
 
 ---
 
-*Part of the Working With AI Course Series — 10 specialized courses for different professional domains.*
+*Một phần trong bộ khóa học Working With AI — 10 khóa học chuyên biệt cho các lĩnh vực nghề nghiệp khác nhau.*
