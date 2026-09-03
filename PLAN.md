@@ -1,12 +1,12 @@
 # 🌐 Working With AI Course For Web Developers
-## Kế Hoạch Chi Tiết Khoá Học
+## Kế hoạch chi tiết khoá học
 
 > **Đối tượng**: Web Developer — Frontend, Backend, Full-stack, từ junior đến senior.
 > **Mục tiêu**: Sử dụng AI như một pair programmer thông minh — từ coding đến deploy, từ debugging đến architecture design.
 
 ---
 
-## 📌 Triết Lý Khoá Học
+## 📌 Triết lý khoá học
 
 | Nguyên tắc | Áp dụng cho Web Developer |
 |---|---|
@@ -21,7 +21,7 @@
 
 ---
 
-## 🎯 Đối Tượng Học Viên
+## 🎯 Đối tượng học viên
 
 | Persona | Nhu cầu |
 |---|---|
@@ -40,7 +40,7 @@
 
 ---
 
-## 🛠️ Công Cụ
+## 🛠️ Công cụ
 
 | Công cụ | Vai trò | Chi phí |
 |---|---|---|
@@ -94,7 +94,7 @@ AI trends in web dev, customize workflow, tổng kết.
 
 ---
 
-## 📁 Folder Structure
+## 📁 Cấu trúc thư mục
 
 ```
 working-with-ai-course-for-web-developer/
